@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nombre": "Taylor Swift",
+        "fecha_nacimiento": "1989-12-13",
+        "imagen": "/assets/fotosCantantes/TaylorSwift.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora estadounidense."
+    },
+    {
+        "id": 2,
+        "nombre": "Ed Sheeran",
+        "fecha_nacimiento": "1991-02-17",
+        "imagen": "/assets/fotosCantantes/EdSheeran.jpg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositor británico."
+    },
+    {
+        "id": 3,
+        "nombre": "Beyoncé",
+        "fecha_nacimiento": "1981-09-04",
+        "imagen": "/assets/fotosCantantes/Beyonce.jpg",
+        "genero": "R&B",
+        "descripcion": "Cantante, compositora y actriz estadounidense."
+    },
+    {
+        "id": 4,
+        "nombre": "Drake",
+        "fecha_nacimiento": "1986-10-24",
+        "imagen": "/assets/fotosCantantes/Drake.jpg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper, cantante y actor canadiense."
+    },
+    {
+        "id": 5,
+        "nombre": "Adele",
+        "fecha_nacimiento": "1988-05-05",
+        "imagen": "/assets/fotosCantantes/Adele.jpg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora británica."
+    },
+    {
+        "id": 6,
+        "nombre": "Bruno Mars",
+        "fecha_nacimiento": "1985-10-08",
+        "imagen": "/assets/fotosCantantes/BrunoMars.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante, compositor y productor estadounidense."
+    },
+    {
+        "id": 7,
+        "nombre": "Billie Eilish",
+        "fecha_nacimiento": "2001-12-18",
+        "imagen": "/assets/fotosCantantes/BillieEilish.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora estadounidense."
+    },
+    {
+        "id": 8,
+        "nombre": "Kanye West",
+        "fecha_nacimiento": "1977-06-08",
+        "imagen": "/assets/fotosCantantes/KanyeWest.jpeg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper, productor y diseñador estadounidense."
+    },
+    {
+        "id": 9,
+        "nombre": "Rihanna",
+        "fecha_nacimiento": "1988-02-20",
+        "imagen": "/assets/fotosCantantes/Rihanna.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante, actriz y empresaria barbadense."
+    },
+    {
+        "id": 10,
+        "nombre": "Justin Bieber",
+        "fecha_nacimiento": "1994-03-01",
+        "imagen": "/assets/fotosCantantes/JustinBieber.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositor canadiense."
+    },
+    {
+        "id": 11,
+        "nombre": "Ariana Grande",
+        "fecha_nacimiento": "1993-06-26",
+        "imagen": "/assets/fotosCantantes/ArianaGrande.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y actriz estadounidense."
+    },
+    {
+        "id": 12,
+        "nombre": "Shakira",
+        "fecha_nacimiento": "1977-02-02",
+        "imagen": "/assets/fotosCantantes/Shakira.jpeg",
+        "genero": "Latin",
+        "descripcion": "Cantante, compositora y bailarina colombiana."
+    },
+    {
+        "id": 13,
+        "nombre": "Eminem",
+        "fecha_nacimiento": "1972-10-17",
+        "imagen": "/assets/fotosCantantes/Eminem.jpeg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper, productor y actor estadounidense."
+    },
+    {
+        "id": 14,
+        "nombre": "Lady Gaga",
+        "fecha_nacimiento": "1986-03-28",
+        "imagen": "/assets/fotosCantantes/LadyGaga.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante, compositora y actriz estadounidense."
+    },
+    {
+        "id": 15,
+        "nombre": "The Weeknd",
+        "fecha_nacimiento": "1990-02-16",
+        "imagen": "/assets/fotosCantantes/TheWeeknd.jpeg",
+        "genero": "R&B",
+        "descripcion": "Cantante, compositor y productor canadiense."
+    },
+    {
+        "id": 16,
+        "nombre": "Katy Perry",
+        "fecha_nacimiento": "1984-10-25",
+        "imagen": "/assets/fotosCantantes/KatyPerry.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora estadounidense."
+    },
+    {
+        "id": 17,
+        "nombre": "Post Malone",
+        "fecha_nacimiento": "1995-07-04",
+        "imagen": "/assets/fotosCantantes/PostMalone.jpeg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper, cantante y compositor estadounidense."
+    },
+    {
+        "id": 18,
+        "nombre": "Selena Gomez",
+        "fecha_nacimiento": "1992-07-22",
+        "imagen": "/assets/fotosCantantes/SelenaGomez.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante, actriz y productora estadounidense."
+    },
+    {
+        "id": 19,
+        "nombre": "J Balvin",
+        "fecha_nacimiento": "1985-05-07",
+        "imagen": "/assets/fotosCantantes/JBalvin.jpeg",
+        "genero": "Reggaeton",
+        "descripcion": "Cantante y compositor colombiano."
+    },
+    {
+        "id": 20,
+        "nombre": "Bad Bunny",
+        "fecha_nacimiento": "1994-03-10",
+        "imagen": "/assets/fotosCantantes/BadBunny.jpeg",
+        "genero": "Reggaeton",
+        "descripcion": "Rapper, cantante y compositor puertorriqueño."
+    },
+    {
+        "id": 21,
+        "nombre": "Dua Lipa",
+        "fecha_nacimiento": "1995-08-22",
+        "imagen": "/assets/fotosCantantes/DuaLipa.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora británica."
+    },
+    {
+        "id": 22,
+        "nombre": "Shawn Mendes",
+        "fecha_nacimiento": "1998-08-08",
+        "imagen": "/assets/fotosCantantes/ShawnMendes.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositor canadiense."
+    },
+    {
+        "id": 23,
+        "nombre": "Camila Cabello",
+        "fecha_nacimiento": "1997-03-03",
+        "imagen": "/assets/fotosCantantes/CamilaCabello.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora cubano-estadounidense."
+    },
+    {
+        "id": 24,
+        "nombre": "Ozuna",
+        "fecha_nacimiento": "1992-03-13",
+        "imagen": "/assets/fotosCantantes/Ozuna.jpeg",
+        "genero": "Reggaeton",
+        "descripcion": "Cantante y compositor puertorriqueño."
+    },
+    {
+        "id": 25,
+        "nombre": "Cardi B",
+        "fecha_nacimiento": "1992-10-11",
+        "imagen": "/assets/fotosCantantes/CardiB.jpeg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper y compositora estadounidense."
+    },
+    {
+        "id": 26,
+        "nombre": "Maluma",
+        "fecha_nacimiento": "1994-01-28",
+        "imagen": "/assets/fotosCantantes/Maluma.jpeg",
+        "genero": "Reggaeton",
+        "descripcion": "Cantante y compositor colombiano."
+    },
+    {
+        "id": 27,
+        "nombre": "Nicki Minaj",
+        "fecha_nacimiento": "1982-12-08",
+        "imagen": "/assets/fotosCantantes/NickiMinaj.jpeg",
+        "genero": "Hip-Hop",
+        "descripcion": "Rapper, cantante y compositora trinitense-estadounidense."
+    },
+    {
+        "id": 28,
+        "nombre": "Sia",
+        "fecha_nacimiento": "1975-12-18",
+        "imagen": "/assets/fotosCantantes/Sia.jpeg",
+        "genero": "Pop",
+        "descripcion": "Cantante y compositora australiana."
+    },
+    {
+        "id": 29,
+        "nombre": "Luis Fonsi",
+        "fecha_nacimiento": "1978-04-15",
+        "imagen": "/assets/fotosCantantes/LuisFonsi.jpeg",
+        "genero": "Latin",
+        "descripcion": "Cantante y compositor puertorriqueño."
+    },
+    {
+        "id": 30,
+        "nombre": "Daddy Yankee",
+        "fecha_nacimiento": "1977-02-03",
+        "imagen": "/assets/fotosCantantes/DaddyYankee.jpeg",
+        "genero": "Reggaeton",
+        "descripcion": "Rapper, cantante y compositor puertorriqueño."
+    }
+]

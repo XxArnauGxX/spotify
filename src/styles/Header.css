@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(17, 70, 36);
+  background: linear-gradient(90deg, rgba(17, 70, 36, 1) 0%, rgba(33, 171, 82, 1) 50%, rgba(29, 185, 84, 1) 100%);
+  color: white;
+  height: 60px; /* Reduce the height of the header */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 6em;
+  width: 6em;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #fff;
+}
+
+.foto-perfil {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Ensure the height is consistent */
+  }
+
+  .logo {
+    height: 4em;
+    width: 4em;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgb(17, 70, 36);
+    background: linear-gradient(90deg, rgba(17, 70, 36, 1) 0%, rgba(33, 171, 82, 1) 50%, rgba(29, 185, 84, 1) 100%);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 999;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
+
+  .foto-perfil {
+    height: 30px;
+    width: 30px;
+  }
+
+  .hamburger {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+  }
+
+  .foto-perfil {
+    position: fixed;
+    top: 10px;
+    right: 60px;
+  }
+}
