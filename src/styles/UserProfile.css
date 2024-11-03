@@ -1,0 +1,43 @@
+/* src/styles/UserProfile.css */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px 20px;
+}
+
+.user-profile h2 {
+  margin-bottom: 20px;
+  color: #1db954;
+}
+
+.user-profile img.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #1db954;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.user-profile p {
+  font-size: 1.1em;
+  margin: 5px 0;
+  color: #333;
+}
+
+.user-profile p strong {
+  color: #1db954;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .user-profile {
+    padding: 80px 10px 10px;
+  }
+
+  .user-profile img.profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+}

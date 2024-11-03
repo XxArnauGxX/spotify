@@ -1,21 +1,30 @@
-import React from "react";
-import Header from "./components/Header.js";
-import Footer from "./components/Footer.js";
-import Home from "./pages/Home.js";
-import "./styles/Header.css";
-import "./styles/Footer.css";
-import "./styles/Home.css";
-import "./App.css";
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import UserProfile from './pages/UserProfile';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className="content">
-        <Home />
+    <Router>
+      <div className="App">
+        <Header />
+        <div className="content">
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/login" component={Login} />
+            <Route path="/registro" component={Register} />
+            <Route path="/perfil" component={UserProfile} />
+          </Switch>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

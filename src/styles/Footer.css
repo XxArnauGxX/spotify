@@ -1,34 +1,41 @@
+/* src/styles/Footer.css */
+
 .footer {
   background-color: #282828;
   color: #b3b3b3;
-  padding: 40px 20px;
+  padding: 10px 20px; /* Reducido para hacer el footer menos alto */
   width: 100%;
   position: relative;
   bottom: 0;
   left: 0;
+  border-top: 1px solid #ccc; /* Añade un borde superior gris */
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the footer sections */
-  gap: 20px;
+  justify-content: space-around; /* Posicionamiento simétrico */
+  gap: 10px; /* Espaciado reducido entre elementos */
+  max-width: 1200px; /* Ancho máximo para mejor disposición */
+  margin: 0 auto; /* Centrar el contenedor */
 }
 
 .footer-section {
   flex: 1 1 200px;
-  margin-bottom: 20px;
-  text-align: center; /* Center the content within each section */
+  margin-bottom: 10px; /* Espaciado reducido inferior */
+  text-align: left; /* Alineación izquierda para simetría */
 }
 
 .footer-section h4 {
-  margin-bottom: 15px;
-  color: #ffffff;
+  margin-bottom: 10px; /* Espaciado reducido */
+  color: #1db954; /* Verde igual que el header */
+  font-size: 1.2em; /* Aumenta el tamaño del título */
 }
 
 .footer-section p {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
+  margin: 5px 0; /* Espaciado reducido */
 }
 
 .footer-section ul {
@@ -37,7 +44,7 @@
 }
 
 .footer-section ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px; /* Espaciado reducido */
 }
 
 .footer-section ul li a {
@@ -50,46 +57,61 @@
   color: #1db954;
 }
 
-.footer-section .contact-info {
-  font-weight: bold; /* Different style for contact info */
-  color: #ffffff;
+.contact-info strong {
+  color: #1db954; /* Verde igual que el header */
+}
+
+.contact-info span {
+  color: #2d7a3c; /* Verde menos llamativo */
 }
 
 .social-icons {
   display: flex;
-  justify-content: center; /* Center the social icons */
-  gap: 15px;
+  justify-content: center; /* Posicionamiento simétrico */
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Animación de escala al hacer hover */
 }
 
 .social-icons a img {
   width: 24px;
   height: 24px;
-  transition: transform 0.3s;
-}
-
-.social-icons a img:hover {
-  transform: scale(1.1);
+  margin: 0 5px;
 }
 
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid #3e3e3e;
-  margin-top: 20px;
-  padding-top: 10px;
-  font-size: 12px;
+  margin-top: 10px; /* Espaciado reducido */
+  font-size: 0.9em;
+  color: #a1a1a1; /* Verde menos llamativo */
+  border-top: 1px solid #ccc; /* Añade un borde superior gris para separar */
+  padding-top: 10px; /* Espaciado arriba del texto */
 }
 
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Alineación simétrica en pantallas pequeñas */
   }
 
   .footer-section {
-    text-align: center;
+    width: 100%;
+    text-align: center; /* Centrar en pantallas pequeñas */
   }
 
   .social-icons {
-    justify-content: center;
+    justify-content: center; /* Centrar iconos sociales en pantallas pequeñas */
   }
 }

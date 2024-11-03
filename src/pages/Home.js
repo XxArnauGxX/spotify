@@ -1,3 +1,4 @@
+// src/pages/Home.js
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
 import artistasData from "../assets/cantantes/artistas.json";
@@ -8,8 +9,9 @@ function Home() {
   const [canciones, setCanciones] = useState([]);
 
   useEffect(() => {
-    // Tomamos los primeros 5 artistas y canciones
+    // Limitar a 5 artistas
     setArtistas(artistasData.slice(0, 5));
+    // Limitar a 5 canciones
     setCanciones(cancionesData.slice(0, 5));
   }, []);
 
@@ -17,20 +19,20 @@ function Home() {
     <div className="home">
       <section className="hero">
         <h1>Bienvenido a Reactify</h1>
-        <p>Disfruta de tu música favorita al instante en Reactify.</p>
+        <p>Descubre los mejores artistas y canciones del momento</p>
       </section>
 
       <section className="top-artistas">
         <h2>Top Artistas</h2>
         <div className="contenedor-artistas">
           {artistas.map((artista) => (
-            <div key={artista.id} className="tarjeta-artista">
-            <div className="imagen-container">
-              <img src={artista.imagen} alt={artista.nombre} />
+            <div className="tarjeta-artista" key={artista.id}>
+              <div className="imagen-container">
+                <img src={artista.imagen} alt={artista.nombre} />
+              </div>
+              <h3>{artista.nombre}</h3>
+              <p>{artista.genero}</p>
             </div>
-            <h3>{artista.nombre}</h3>
-            <p>{artista.genero}</p>
-          </div>
           ))}
         </div>
       </section>
@@ -38,17 +40,18 @@ function Home() {
       <section className="top-canciones">
         <h2>Top Canciones</h2>
         <div className="contenedor-canciones">
-          {canciones.map((cancion) => {
-            const artista = artistasData.find((a) => a.id === cancion.artista_id);
-            return (
-              <div key={cancion.id} className="tarjeta-cancion">
-                <h3>{cancion.titulo}</h3>
-                <p>{artista ? artista.nombre : "Desconocido"}</p>
-                <p>{cancion.album}</p>
-                <p>{cancion.duracion}</p>
+          {canciones.map((cancion) => (
+            <div className="tarjeta-cancion" key={cancion.id}>
+              <div className="imagen-container">
+                <img src={`/assets/cantantes/${cancion.imagen}`} alt={cancion.titulo} />
               </div>
-            );
-          })}
+              <h3>{cancion.titulo}</h3>
+              <p>{cancion.artista}</p>
+              <p className="duracion-album">
+                <strong>Duración:</strong> {cancion.duracion} | <strong>Álbum:</strong> {cancion.album}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
     </div>

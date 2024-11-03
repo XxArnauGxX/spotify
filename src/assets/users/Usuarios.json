@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan Perez",
+        "correo": "juan.perez@gmail.com",
+        "contraseña": "JuanPerez123!",
+        "telefono": "650123456",
+        "imagen": "juan_perez.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Maria Gomez",
+        "correo": "maria.gomez@gmail.com",
+        "contraseña": "MariaGomez456!",
+        "telefono": "650234567",
+        "imagen": "maria_gomez.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Sanchez",
+        "correo": "carlos.sanchez@gmail.com",
+        "contraseña": "CarlosSanchez789!",
+        "telefono": "650345678",
+        "imagen": "carlos_sanchez.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Ana Martinez",
+        "correo": "ana.martinez@gmail.com",
+        "contraseña": "AnaMartinez101!",
+        "telefono": "650456789",
+        "imagen": "ana_martinez.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Luis Ramirez",
+        "correo": "luis.ramirez@gmail.com",
+        "contraseña": "LuisRamirez202!",
+        "telefono": "650567890",
+        "imagen": "luis_ramirez.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Laura Fernandez",
+        "correo": "laura.fernandez@gmail.com",
+        "contraseña": "LauraFernandez303!",
+        "telefono": "650678901",
+        "imagen": "laura_fernandez.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Jose Torres",
+        "correo": "jose.torres@gmail.com",
+        "contraseña": "JoseTorres404!",
+        "telefono": "650789012",
+        "imagen": "jose_torres.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Elena Diaz",
+        "correo": "elena.diaz@gmail.com",
+        "contraseña": "ElenaDiaz505!",
+        "telefono": "650890123",
+        "imagen": "elena_diaz.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Miguel Lopez",
+        "correo": "miguel.lopez@gmail.com",
+        "contraseña": "MiguelLopez606!",
+        "telefono": "650901234",
+        "imagen": "miguel_lopez.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Sofia Morales",
+        "correo": "sofia.morales@gmail.com",
+        "contraseña": "SofiaMorales707!",
+        "telefono": "650012345",
+        "imagen": "sofia_morales.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Diego Ortiz",
+        "correo": "diego.ortiz@gmail.com",
+        "contraseña": "DiegoOrtiz808!",
+        "telefono": "650123456",
+        "imagen": "diego_ortiz.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Valeria Ruiz",
+        "correo": "valeria.ruiz@gmail.com",
+        "contraseña": "ValeriaRuiz909!",
+        "telefono": "650234567",
+        "imagen": "valeria_ruiz.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Javier Herrera",
+        "correo": "javier.herrera@gmail.com",
+        "contraseña": "JavierHerrera010!",
+        "telefono": "650345678",
+        "imagen": "javier_herrera.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Camila Castro",
+        "correo": "camila.castro@gmail.com",
+        "contraseña": "CamilaCastro111!",
+        "telefono": "650456789",
+        "imagen": "camila_castro.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Andres Vega",
+        "correo": "andres.vega@gmail.com",
+        "contraseña": "AndresVega212!",
+        "telefono": "650567890",
+        "imagen": "andres_vega.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Isabel Soto",
+        "correo": "isabel.soto@gmail.com",
+        "contraseña": "IsabelSoto313!",
+        "telefono": "650678901",
+        "imagen": "isabel_soto.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Ricardo Mendoza",
+        "correo": "ricardo.mendoza@gmail.com",
+        "contraseña": "RicardoMendoza414!",
+        "telefono": "650789012",
+        "imagen": "ricardo_mendoza.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Paula Guerrero",
+        "correo": "paula.guerrero@gmail.com",
+        "contraseña": "PaulaGuerrero515!",
+        "telefono": "650890123",
+        "imagen": "paula_guerrero.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Fernando Rios",
+        "correo": "fernando.rios@gmail.com",
+        "contraseña": "FernandoRios616!",
+        "telefono": "650901234",
+        "imagen": "fernando_rios.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Natalia Vargas",
+        "correo": "natalia.vargas@gmail.com",
+        "contraseña": "NataliaVargas717!",
+        "telefono": "650012345",
+        "imagen": "natalia_vargas.jpg"
+    }
+]

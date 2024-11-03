@@ -1,81 +1,121 @@
+/* src/styles/Home.css */
 .home {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .hero {
-    background-color: #1db954;
-    color: white;
-    padding: 50px 20px;
-    margin-bottom: 20px;
-  }
-  
+  padding: 80px 20px 20px; /* Ajusta el padding superior para no ocultar detrás del header fijo */
+  text-align: center;
+  background-color: #a7d3b4; /* Fondo suave para distinguir las secciones */
+}
+
+.hero {
+  background-color: #1db954;
+  color: white;
+  padding: 50px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.top-artistas,
+.top-canciones {
+  margin: 40px 0;
+}
+
+.contenedor-artistas,
+.contenedor-canciones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tarjeta-artista,
+.tarjeta-cancion {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta-artista:hover,
+.tarjeta-cancion:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta-artista h3,
+.tarjeta-cancion h3 {
+  margin: 15px 0 5px;
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.tarjeta-artista p,
+.tarjeta-cancion p {
+  font-size: 1em;
+  color: #777777;
+  margin: 5px 0;
+}
+
+.duracion-album {
+  font-size: 0.9em;
+  color: #555555;
+}
+
+.imagen-container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%; /* Mantiene la relación de aspecto cuadrada */
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.imagen-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   .hero h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-size: 2.5em;
   }
-  
+
   .hero p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
-  
-  .top-artistas,
-  .top-canciones {
-    margin: 40px 0;
-  }
-  
-  .contenedor-artistas,
-  .contenedor-canciones {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
+
   .tarjeta-artista,
   .tarjeta-cancion {
-    background-color: #ffffff;
-    border-radius: 10px;
-    width: 200px;
-    text-align: center;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
   }
-  
-  .tarjeta-artista:hover,
-  .tarjeta-cancion:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s;
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 80px 10px 10px;
   }
-  
-  .tarjeta-artista h3,
-  .tarjeta-cancion h3 {
-    margin: 15px 0 5px;
-    font-size: 1.2em;
-    color: #333;
+
+  .hero h1 {
+    font-size: 2em;
   }
-  
-  .tarjeta-artista p,
-  .tarjeta-cancion p {
-    font-size: 1em;
-    color: #777;
-    margin: 5px 0;
-  }
-  
-  .imagen-container {
+
+  .tarjeta-artista,
+  .tarjeta-cancion {
     width: 100%;
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    overflow: hidden;
-    border-radius: 10px;
   }
-  
-  .imagen-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+}

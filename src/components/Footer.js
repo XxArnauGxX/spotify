@@ -1,3 +1,4 @@
+// src/components/Footer.js
 import React from "react";
 import "../styles/Footer.css";
 import Facebook from "../assets/logo/facebook.png";
@@ -7,7 +8,7 @@ import Twitter from "../assets/logo/twitter.png";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer"> {/* Asegúrate de que la clase coincida con tu CSS */}
       <div className="footer-container">
         <div className="footer-section">
           <h4>Sobre Reactify</h4>
@@ -33,8 +34,12 @@ function Footer() {
         <div className="footer-section">
           <h4>Soporte</h4>
           <ul>
-            <li className="contact-info">Teléfono: 123-456-789</li>
-            <li className="contact-info">Correo: reactify@outlook.com</li>
+            <li className="contact-info">
+              <strong>Teléfono:</strong> <span>123-456-789</span>
+            </li>
+            <li className="contact-info">
+              <strong>Correo:</strong> <span>reactify@outlook.com</span>
+            </li>
             <li>
               <a href="#">Contáctanos</a>
             </li>
