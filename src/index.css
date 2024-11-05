@@ -4,6 +4,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Evita scroll en el eje X */
 }
 
 code {
@@ -13,4 +14,10 @@ code {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* Evitar que las imágenes o elementos grandes causen overflow */
+img, video, canvas, svg {
+  max-width: 100%;
+  height: auto;
 }

@@ -2,32 +2,32 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
-  background: linear-gradient(to right, #004d00, #1db954, #004d00); /* Degradado con verde más oscuro en los extremos */
-  padding: 0 20px; /* Reduce el padding superior e inferior para mantener la altura */
-  height: 70px; /* Define una altura fija para el header */
+  justify-content: space-between;
+  background: linear-gradient(to right, #004d00, #1db954, #004d00);
+  padding: 0 20px;
+  height: 70px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); /* Añade box-shadow al borde inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .logo {
-  height: 100px; /* Aumenta la altura del logo */
-  padding: 0; /* Elimina padding para ajustar el logo dentro del header */
+  height: 40px;
+  width: auto;
 }
 
 .nav {
   display: flex;
   flex: 1;
-  justify-content: center; /* Centra el menú de navegación horizontalmente */
+  justify-content: center;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px; /* Aumenta el espacio entre enlaces */
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
@@ -71,6 +71,21 @@
   border-color: #ffd700;
 }
 
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: #ff0000;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -84,56 +99,36 @@
   margin: 4px 0;
 }
 
-.logout-button {
-  background-color: transparent;
-  border: none;
-  color: #ff0000;
-  cursor: pointer;
-  margin-left: 10px;
-  font-size: 1em;
-}
-
-.user-section {
-  display: flex;
-  align-items: center;
-  padding: 0 10px; /* Ajusta el padding para alinear mejor */
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .nav {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 20px;
     background-color: #1db954;
     flex-direction: column;
     width: 150px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para el menú desplegable */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
-
+  
   .nav.open {
     display: flex;
   }
-
+  
   .nav-links {
     flex-direction: column;
     gap: 10px;
-    padding: 10px 0;
   }
-
+  
   .hamburger {
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
   }
+}
 
-  .user-section {
-    padding: 0 10px; /* Ajuste de padding en pantallas pequeñas */
-  }
-
-  .logo {
-    height: 40px; /* Ajusta la altura del logo en pantallas pequeñas */
+@media (max-width: 480px) {
+  .nav-links li {
+    font-size: 0.9em;
   }
 }

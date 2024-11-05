@@ -1,50 +1,41 @@
 /* src/styles/Footer.css */
-
 .footer {
   background-color: #282828;
   color: #b3b3b3;
-  padding: 10px 20px; /* Reducido para hacer el footer menos alto */
+  padding: 20px;
   width: 100%;
+  border-top: 1px solid #ccc;
   position: relative;
   bottom: 0;
   left: 0;
-  border-top: 1px solid #ccc; /* Añade un borde superior gris */
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Posicionamiento simétrico */
-  gap: 10px; /* Espaciado reducido entre elementos */
-  max-width: 1200px; /* Ancho máximo para mejor disposición */
-  margin: 0 auto; /* Centrar el contenedor */
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-section {
   flex: 1 1 200px;
-  margin-bottom: 10px; /* Espaciado reducido inferior */
-  text-align: left; /* Alineación izquierda para simetría */
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .footer-section h4 {
-  margin-bottom: 10px; /* Espaciado reducido */
-  color: #1db954; /* Verde igual que el header */
-  font-size: 1.2em; /* Aumenta el tamaño del título */
+  margin-bottom: 10px;
+  color: #1db954;
 }
 
-.footer-section p {
-  font-size: 14px;
-  line-height: 1.4;
-  margin: 5px 0; /* Espaciado reducido */
-}
-
-.footer-section ul {
-  list-style: none;
+.footer-section p, .footer-section ul {
+  margin: 0;
   padding: 0;
 }
 
 .footer-section ul li {
-  margin-bottom: 5px; /* Espaciado reducido */
+  margin-bottom: 5px;
 }
 
 .footer-section ul li a {
@@ -58,60 +49,52 @@
 }
 
 .contact-info strong {
-  color: #1db954; /* Verde igual que el header */
+  color: #1db954;
 }
 
 .contact-info span {
-  color: #2d7a3c; /* Verde menos llamativo */
+  color: #2d7a3c;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center; /* Posicionamiento simétrico */
+  justify-content: center;
   margin-top: 10px;
-}
-
-.social-icons a {
-  display: inline-block;
-  transition: transform 0.3s;
-}
-
-.social-icons a:hover {
-  transform: scale(1.2); /* Animación de escala al hacer hover */
+  gap: 10px;
 }
 
 .social-icons a img {
   width: 24px;
   height: 24px;
-  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
 }
 
 .footer-bottom {
   text-align: center;
-  margin-top: 10px; /* Espaciado reducido */
+  margin-top: 10px;
   font-size: 0.9em;
-  color: #a1a1a1; /* Verde menos llamativo */
-  border-top: 1px solid #aaaaaa; /* Añade un borde superior gris para separar */
-  padding-top: 10px; /* Espaciado arriba del texto */
-}
-
-.footer-bottom p {
-  margin: 0;
+  color: #a1a1a1;
+  border-top: 1px solid #aaaaaa;
+  padding-top: 10px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
-    align-items: center; /* Alineación simétrica en pantallas pequeñas */
+    align-items: center;
   }
-
+  
   .footer-section {
     width: 100%;
-    text-align: center; /* Centrar en pantallas pequeñas */
+    text-align: center;
   }
-
+  
   .social-icons {
-    justify-content: center; /* Centrar iconos sociales en pantallas pequeñas */
+    justify-content: center;
   }
 }

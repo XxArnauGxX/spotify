@@ -1,13 +1,14 @@
-import React, { Suspense, lazy } from 'react';
+// src/App.js
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import './App.css';
-
-const Home = lazy(() => import('./pages/Home'));
-const Login = lazy(() => import('./pages/Login'));
-const UserProfile = lazy(() => import('./pages/UserProfile'));
-const Contact = lazy(() => import('./pages/Contact'));
+import Home from './pages/Home';
+import Login from './pages/Login';
+import UserProfile from './pages/UserProfile';
+import Contact from './pages/Contact';
+import BuscarArtistas from './pages/BuscarArtistas';
+import ArtistaDetalle from './pages/ArtistaDetalle';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
               <Route path="/login" component={Login} />
               <Route path="/perfil" component={UserProfile} />
               <Route path="/contacto" component={Contact} />
+              <Route path="/buscar-artistas" component={BuscarArtistas} />
+              <Route path="/artista/:id" component={ArtistaDetalle} />
             </Switch>
           </div>
         </Suspense>

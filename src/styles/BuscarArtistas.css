@@ -1,0 +1,94 @@
+/* src/styles/BuscarArtistas.css */
+.buscar-artistas {
+  padding: 80px 20px 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.artist-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.artist-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.artist-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.artist-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1db954;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 40px;
+}
+
+.pagination button:hover {
+  background-color: #17a44d;
+}
+
+.pagination .active {
+  background-color: #0d8b3f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .artist-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .artist-card {
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: none;
+  }
+}

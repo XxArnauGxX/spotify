@@ -1,0 +1,65 @@
+/* src/styles/ArtistaDetalle.css */
+.artista-detalle {
+  padding: 80px 20px 20px;
+  text-align: center;
+}
+
+.artista-imagen {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.canciones-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cancion-item {
+  width: 90%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cancion-item p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cancion-item audio {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .artista-detalle {
+    padding: 80px 15px 15px;
+  }
+  
+  .cancion-item {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .artista-detalle {
+    padding: 80px 10px 10px;
+  }
+  
+  .artista-imagen {
+    width: 60%;
+  }
+  
+  .cancion-item {
+    width: 100%;
+  }
+}

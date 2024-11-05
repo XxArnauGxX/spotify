@@ -1,8 +1,8 @@
 /* src/styles/Home.css */
 .home {
-  padding: 80px 20px 20px; /* Ajusta el padding superior para no ocultar detrás del header fijo */
+  padding: 80px 20px 20px;
   text-align: center;
-  background-color: #a7d3b4; /* Fondo suave para distinguir las secciones */
+  background-color: #a7d3b4;
   margin: 0;
 }
 
@@ -107,11 +107,9 @@
   .home {
     padding: 80px 10px 10px;
   }
-
   .hero h1 {
     font-size: 2em;
   }
-
   .tarjeta-artista,
   .tarjeta-cancion {
     width: 100%;
