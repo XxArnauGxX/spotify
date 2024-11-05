@@ -10,6 +10,7 @@ function Login() {
   const [contraseña, setContraseña] = useState('');
   const { setUser } = useContext(UserContext);
   const history = useHistory();
+  const [error, setError] = useState('');
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -22,20 +23,21 @@ function Login() {
       localStorage.setItem('currentUser', JSON.stringify(user));
       history.push('/perfil');
     } else {
-      alert('Correo o contraseña incorrectos');
+      setError('Correo o contraseña incorrectos');
     }
   };
 
   return (
     <div className="login-container">
       <h2>Iniciar Sesión</h2>
-      <form onSubmit={handleLogin}>
+      <form onSubmit={handleLogin} aria-label="Formulario de Iniciar Sesión">
         <input
           type="email"
           placeholder="Correo electrónico"
           value={correo}
           onChange={(e) => setCorreo(e.target.value)}
           required
+          aria-label="Correo Electrónico"
         />
         <input
           type="password"
@@ -43,7 +45,9 @@ function Login() {
           value={contraseña}
           onChange={(e) => setContraseña(e.target.value)}
           required
+          aria-label="Contraseña"
         />
+        {error && <p className="error-message">{error}</p>}
         <button type="submit">Ingresar</button>
       </form>
     </div>

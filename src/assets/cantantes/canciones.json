@@ -4,209 +4,239 @@
         "titulo": "Love Story",
         "artista_id": 1,
         "duracion": "3:55",
-        "album": "Fearless"
+        "album": "Fearless",
+        "imagen": "loveStory.png"
     },
     {
         "id": 2,
         "titulo": "Shape of You",
         "artista_id": 2,
         "duracion": "3:53",
-        "album": "÷"
+        "album": "÷",
+        "imagen": "shapeOfYou.jpg"
     },
     {
         "id": 3,
         "titulo": "Halo",
         "artista_id": 3,
         "duracion": "4:21",
-        "album": "I Am... Sasha Fierce"
+        "album": "I Am... Sasha Fierce",
+        "imagen": "halo.jpg"
     },
     {
         "id": 4,
         "titulo": "Hotline Bling",
         "artista_id": 4,
         "duracion": "4:27",
-        "album": "Views"
+        "album": "Views",
+        "imagen": "hotlineBling.png"
     },
     {
         "id": 5,
         "titulo": "Hello",
         "artista_id": 5,
         "duracion": "4:55",
-        "album": "25"
+        "album": "25",
+        "imagen": "hello.jpg"
     },
     {
         "id": 6,
         "titulo": "Uptown Funk",
         "artista_id": 6,
         "duracion": "4:30",
-        "album": "Uptown Special"
+        "album": "Uptown Special",
+        "imagen": "path/to/image6.jpg"
     },
     {
         "id": 7,
         "titulo": "Bad Guy",
         "artista_id": 7,
         "duracion": "3:14",
-        "album": "When We All Fall Asleep, Where Do We Go?"
+        "album": "When We All Fall Asleep, Where Do We Go?",
+        "imagen": "path/to/image7.jpg"
     },
     {
         "id": 8,
         "titulo": "Stronger",
         "artista_id": 8,
         "duracion": "5:11",
-        "album": "Graduation"
+        "album": "Graduation",
+        "imagen": "path/to/image8.jpg"
     },
     {
         "id": 9,
         "titulo": "Umbrella",
         "artista_id": 9,
         "duracion": "4:36",
-        "album": "Good Girl Gone Bad"
+        "album": "Good Girl Gone Bad",
+        "imagen": "path/to/image9.jpg"
     },
     {
         "id": 10,
         "titulo": "Sorry",
         "artista_id": 10,
         "duracion": "3:20",
-        "album": "Purpose"
+        "album": "Purpose",
+        "imagen": "path/to/image10.jpg"
     },
     {
         "id": 11,
         "titulo": "Thank U, Next",
         "artista_id": 11,
         "duracion": "3:27",
-        "album": "Thank U, Next"
+        "album": "Thank U, Next",
+        "imagen": "path/to/image11.jpg"
     },
     {
         "id": 12,
         "titulo": "Hips Don't Lie",
         "artista_id": 12,
         "duracion": "3:38",
-        "album": "Oral Fixation, Vol. 2"
+        "album": "Oral Fixation, Vol. 2",
+        "imagen": "path/to/image12.jpg"
     },
     {
         "id": 13,
         "titulo": "Lose Yourself",
         "artista_id": 13,
         "duracion": "5:26",
-        "album": "8 Mile"
+        "album": "8 Mile",
+        "imagen": "path/to/image13.jpg"
     },
     {
         "id": 14,
         "titulo": "Poker Face",
         "artista_id": 14,
         "duracion": "3:57",
-        "album": "The Fame"
+        "album": "The Fame",
+        "imagen": "path/to/image14.jpg"
     },
     {
         "id": 15,
         "titulo": "Blinding Lights",
         "artista_id": 15,
         "duracion": "3:20",
-        "album": "After Hours"
+        "album": "After Hours",
+        "imagen": "path/to/image15.jpg"
     },
     {
         "id": 16,
         "titulo": "Roar",
         "artista_id": 16,
         "duracion": "3:42",
-        "album": "Prism"
+        "album": "Prism",
+        "imagen": "path/to/image16.jpg"
     },
     {
         "id": 17,
         "titulo": "Circles",
         "artista_id": 17,
         "duracion": "3:35",
-        "album": "Hollywood's Bleeding"
+        "album": "Hollywood's Bleeding",
+        "imagen": "path/to/image17.jpg"
     },
     {
         "id": 18,
         "titulo": "Lose You to Love Me",
         "artista_id": 18,
         "duracion": "3:27",
-        "album": "Rare"
+        "album": "Rare",
+        "imagen": "path/to/image18.jpg"
     },
     {
         "id": 19,
         "titulo": "Mi Gente",
         "artista_id": 19,
         "duracion": "3:06",
-        "album": "Vibras"
+        "album": "Vibras",
+        "imagen": "path/to/image19.jpg"
     },
     {
         "id": 20,
         "titulo": "Dakiti",
         "artista_id": 20,
         "duracion": "3:25",
-        "album": "El Último Tour Del Mundo"
+        "album": "El Último Tour Del Mundo",
+        "imagen": "path/to/image20.jpg"
     },
     {
         "id": 21,
         "titulo": "Don't Start Now",
         "artista_id": 21,
         "duracion": "3:03",
-        "album": "Future Nostalgia"
+        "album": "Future Nostalgia",
+        "imagen": "path/to/image21.jpg"
     },
     {
         "id": 22,
         "titulo": "Stitches",
         "artista_id": 22,
         "duracion": "3:26",
-        "album": "Handwritten"
+        "album": "Handwritten",
+        "imagen": "path/to/image22.jpg"
     },
     {
         "id": 23,
         "titulo": "Havana",
         "artista_id": 23,
         "duracion": "3:37",
-        "album": "Camila"
+        "album": "Camila",
+        "imagen": "path/to/image23.jpg"
     },
     {
         "id": 24,
         "titulo": "Taki Taki",
         "artista_id": 24,
         "duracion": "3:52",
-        "album": "Taki Taki"
+        "album": "Taki Taki",
+        "imagen": "path/to/image24.jpg"
     },
     {
         "id": 25,
         "titulo": "I Like It",
         "artista_id": 25,
         "duracion": "4:13",
-        "album": "Invasion of Privacy"
+        "album": "Invasion of Privacy",
+        "imagen": "path/to/image25.jpg"
     },
     {
         "id": 26,
         "titulo": "Felices los 4",
         "artista_id": 26,
         "duracion": "4:00",
-        "album": "F.A.M.E."
+        "album": "F.A.M.E.",
+        "imagen": "path/to/image26.jpg"
     },
     {
         "id": 27,
         "titulo": "Super Bass",
         "artista_id": 27,
         "duracion": "3:20",
-        "album": "Pink Friday"
+        "album": "Pink Friday",
+        "imagen": "path/to/image27.jpg"
     },
     {
         "id": 28,
         "titulo": "Chandelier",
         "artista_id": 28,
         "duracion": "3:36",
-        "album": "1000 Forms of Fear"
+        "album": "1000 Forms of Fear",
+        "imagen": "path/to/image28.jpg"
     },
     {
         "id": 29,
         "titulo": "Despacito",
         "artista_id": 29,
         "duracion": "3:47",
-        "album": "Vida"
+        "album": "Vida",
+        "imagen": "path/to/image29.jpg"
     },
     {
         "id": 30,
         "titulo": "Gasolina",
         "artista_id": 30,
         "duracion": "3:12",
-        "album": "Barrio Fino"
+        "album": "Barrio Fino",
+        "imagen": "path/to/image30.jpg"
     }
 ]

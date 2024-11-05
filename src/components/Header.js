@@ -27,7 +27,7 @@ function Header() {
         <ul className="nav-links">
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/buscar-artistas">Buscar Artistas</Link></li>
-          <li><Link to="/contacto">Contacto</Link></li>
+          <li><Link to="/contacto">Contacto</Link></li> 
         </ul>
       </nav>
       <div className="user-section">
@@ -46,7 +46,7 @@ function Header() {
           <Link to="/login">
             <img
               className="foto-perfil"
-              src="/assets/users/logoUser.jpg" 
+              src="/assets/users/logoUser.jpg"
               alt="Iniciar Sesión"
             />
           </Link>

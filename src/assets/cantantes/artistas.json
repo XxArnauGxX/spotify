@@ -3,7 +3,7 @@
         "id": 1,
         "nombre": "Taylor Swift",
         "fecha_nacimiento": "1989-12-13",
-        "imagen": "/assets/fotosCantantes/TaylorSwift.jpeg",
+        "imagen": "TaylorSwift.jpeg",
         "genero": "Pop",
         "descripcion": "Cantante y compositora estadounidense."
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "nombre": "Ed Sheeran",
         "fecha_nacimiento": "1991-02-17",
-        "imagen": "/assets/fotosCantantes/EdSheeran.jpg",
+        "imagen": "EdSheeran.jpg",
         "genero": "Pop",
         "descripcion": "Cantante y compositor británico."
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "nombre": "Beyoncé",
         "fecha_nacimiento": "1981-09-04",
-        "imagen": "/assets/fotosCantantes/Beyonce.jpg",
+        "imagen": "Beyonce.jpg",
         "genero": "R&B",
         "descripcion": "Cantante, compositora y actriz estadounidense."
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "nombre": "Drake",
         "fecha_nacimiento": "1986-10-24",
-        "imagen": "/assets/fotosCantantes/Drake.jpg",
+        "imagen": "Drake.jpg",
         "genero": "Hip-Hop",
         "descripcion": "Rapper, cantante y actor canadiense."
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "nombre": "Adele",
         "fecha_nacimiento": "1988-05-05",
-        "imagen": "/assets/fotosCantantes/Adele.jpg",
+        "imagen": "Adele.jpg",
         "genero": "Pop",
         "descripcion": "Cantante y compositora británica."
     },

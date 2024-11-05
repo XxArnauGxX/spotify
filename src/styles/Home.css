@@ -77,8 +77,6 @@
   position: relative;
   padding-bottom: 100%; /* Mantiene la relación de aspecto cuadrada */
   overflow: hidden;
-  border-radius: 10px;
-  margin-bottom: 10px;
 }
 
 .imagen-container img {
@@ -88,6 +86,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 /* Responsive */
@@ -95,11 +94,9 @@
   .hero h1 {
     font-size: 2.5em;
   }
-
   .hero p {
     font-size: 1.2em;
   }
-
   .tarjeta-artista,
   .tarjeta-cancion {
     width: 45%;
