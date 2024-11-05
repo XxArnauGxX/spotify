@@ -2,7 +2,7 @@
 import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
-import usuariosData from '../assets/users/Usuarios.json';
+import usuariosData from '../assets/users/usuarios.json';
 import '../styles/Login.css';
 
 function Login() {

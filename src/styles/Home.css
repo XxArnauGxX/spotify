@@ -3,6 +3,7 @@
   padding: 80px 20px 20px; /* Ajusta el padding superior para no ocultar detrás del header fijo */
   text-align: center;
   background-color: #a7d3b4; /* Fondo suave para distinguir las secciones */
+  margin: 0;
 }
 
 .hero {

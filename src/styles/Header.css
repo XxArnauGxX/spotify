@@ -63,6 +63,7 @@
   border: 2px solid #ffffff;
   border-radius: 50%;
   transition: transform 0.3s, border-color 0.3s;
+  object-fit: cover;
 }
 
 .foto-perfil:hover {

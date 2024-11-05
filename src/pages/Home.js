@@ -1,4 +1,3 @@
-// src/pages/Home.js
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
 import artistasData from "../assets/cantantes/artistas.json";

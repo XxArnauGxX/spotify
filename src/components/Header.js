@@ -1,9 +1,8 @@
-// src/components/Header.js
-import React, { useContext, useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import { UserContext } from '../context/UserContext';
-import logo from '../assets/logo/Reactify-logo.png';
-import '../styles/Header.css';
+import React, { useContext, useState } from "react";
+import { Link, useHistory } from "react-router-dom";
+import { UserContext } from "../context/UserContext";
+import "../styles/Header.css";
+import logo from "../assets/logo/Reactify-logo.png";
 
 function Header() {
   const { user, setUser } = useContext(UserContext);
@@ -47,7 +46,7 @@ function Header() {
           <Link to="/login">
             <img
               className="foto-perfil"
-              src="/assets/users/logoUser.jpg"
+              src="/assets/users/logoUser.jpg" 
               alt="Iniciar Sesión"
             />
           </Link>

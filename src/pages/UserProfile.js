@@ -1,7 +1,6 @@
-// src/pages/UserProfile.js
-import React, { useContext } from 'react';
-import { UserContext } from '../context/UserContext';
-import '../styles/UserProfile.css';
+import React, { useContext } from "react";
+import { UserContext } from "../context/UserContext";
+import "../styles/UserProfile.css";
 
 function UserProfile() {
   const { user } = useContext(UserContext);
@@ -15,12 +14,18 @@ function UserProfile() {
       <h2>Perfil de Usuario</h2>
       <img
         className="profile-picture"
-        src={`/assets/users/${user.imagen}`}
+        src={`/assets/users/${user.imagen || 'logoUser.jpg'}`} 
         alt={`${user.nombre}`}
       />
-      <p><strong>Nombre:</strong> {user.nombre}</p>
-      <p><strong>Correo:</strong> {user.correo}</p>
-      <p><strong>Teléfono:</strong> {user.telefono}</p>
+      <p>
+        <strong>Nombre:</strong> {user.nombre}
+      </p>
+      <p>
+        <strong>Correo:</strong> {user.correo}
+      </p>
+      <p>
+        <strong>Teléfono:</strong> {user.telefono}
+      </p>
     </div>
   );
 }

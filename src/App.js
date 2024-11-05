@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Register from './pages/Register';
 import UserProfile from './pages/UserProfile';
 import './App.css';
 
@@ -18,7 +17,6 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
-            <Route path="/registro" component={Register} />
             <Route path="/perfil" component={UserProfile} />
           </Switch>
         </div>
